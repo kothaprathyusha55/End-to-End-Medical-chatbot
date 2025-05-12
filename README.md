@@ -6,7 +6,7 @@
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mchatbot python=3.8 -y
+conda create -n mchatbot python=3.10 -y
 ```
 
 ```bash
@@ -19,10 +19,11 @@ pip install -r requirements.txt
 ```
 
 
-### Create a `.env` file in the root directory and add your Pinecone credentials as follows:
+### Create a `.env` file in the root directory and add your credentials as follows:
 
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+GEMINI_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 ```bash
